@@ -20,6 +20,9 @@ Sat2B::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  #The following needed if using  gem 'closure-compiler' 
+  # config.assets.js_compressor = :closure
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 

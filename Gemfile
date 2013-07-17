@@ -2,9 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'jquery-rails'
-gem 'jquery-ui-rails'
 
-gem 'closure-compiler'
+#gem 'closure-compiler'
 
 group :development, :test do
   gem 'sqlite3'
