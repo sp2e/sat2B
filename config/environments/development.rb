@@ -34,4 +34,7 @@ Sat2B::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  #disable precompiled asset files for development mode (ie , no assets in public directory are served)
+  config.serve_static_assets = false
 end
