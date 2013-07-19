@@ -12,12 +12,27 @@ $fb_cont : flipbook-container-1 ; /* flip book container */
 //ORIG LINES
 //$fb_width : 346px; /* flip book width in pixels (without border) */
 //$fb_height : 490px; /* flip book height in pixels (without border) */
+
+//sat2B original values:
+//@media ( max-width: 1050px){
 $fb_width : 410px; /* flip book width in pixels (without border) */
 $fb_height : 533px; /* flip book height in pixels (without border) */
+//}
+
+//$fb_width_big : 512px; /* flip book width in pixels (without border) */
+//$fb_height_big : 667px; /* flip book height in pixels (without border) */
+//@media (min-width: 1050px) and ( max-width: 1175px)
+//@media (min-width: 1051px){
+$fb_width_big : 461px; /* flip book width in pixels (without border) */
+$fb_height_big : 600px; /* flip book height in pixels (without border) */
+//$fb_width_big : 615px; /* flip book width in pixels (without border) */
+//$fb_height_big : 800px; /* flip book height in pixels (without border) */
+//}
 
 
 /* Book Position */
-$margin_top : 20px;
+$margin_top : 10px;
+/* below orig all = 0px */
 $margin_left : 0px;
 $margin_right : 0px;
 $margin_bottom : 0px;
@@ -60,7 +75,10 @@ $sa_border_outline_color : #D6D6D6; /* show all pages panel outline color */
 
 
 
-	
+//sat2B original values:
+
+//@media ( max-width: 1050px){
+/*}			
 		#flipbook-1 {
 			margin-top: $margin_top; 
 			margin-bottom: $margin_bottom; 
@@ -87,6 +105,39 @@ $sa_border_outline_color : #D6D6D6; /* show all pages panel outline color */
 				box-shadow: inset -1px 0px 1px 0px $border_outline_color; }
 			
 		}
+
+
+
+@media ( min-width: 1051px){
+*/	
+		#flipbook-1 {
+			margin-top: $margin_top; 
+			margin-bottom: $margin_bottom; 
+			margin-left: $margin_left; 
+			margin-right: $margin_right; 
+			
+			width: (($fb_width_big * 2) + ($border_size * 2));  
+			height: (($fb_height_big) + ($border_size * 2));  
+		}
+		
+		#flipbook-1 div.fb-page div.page-content {
+			margin: $border_size 0px; 
+			//margin: 10px 0px; 
+		}
+		
+		#flipbook-1 .turn-page {
+			width: ($fb_width_big + ($border_size)); 		
+			height: ($fb_height_big + ($border_size * 2));
+			//ORIG line is below 
+			background: $border_color;  
+			border-top-right-radius: $border_radius; 
+			border-bottom-right-radius: $border_radius; 
+			@if $border_outline == true {
+				box-shadow: inset -1px 0px 1px 0px $border_outline_color; }
+			
+		}
+//}		
+
 		
 		#flipbook-1 .last .turn-page,
 		#flipbook-1 .even .turn-page {
