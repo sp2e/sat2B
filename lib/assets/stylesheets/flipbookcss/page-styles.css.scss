@@ -2,7 +2,7 @@
 /*	Book Page Styles
 /*-----------------------------------------------------------------------------------*/
 $toc-text-background: #a9a5b2;
-$toc-text: #000000;
+$toc-text: #444444;
 /* Global Styles */
 
 div.page-content {
@@ -72,7 +72,8 @@ div.page-content div.preview-content.toc ul.toc li span.number {
 	background: $toc-text-background;  /*orig color #A6B0BB */
 	padding: 1.5%; 
 	margin-right: 7%;
-	//font-weight: bold;
+	//font-family: "century gothic";
+	font-weight: bold;
 }
 
 div.page-content div.preview-content.toc ul.toc li span.text {
@@ -82,7 +83,8 @@ div.page-content div.preview-content.toc ul.toc li span.text {
 	padding: 1.3% 1.5% 1% 4%;
 	width: 78%;
 	background-size: 100%;
-	//font-weight: bold;
+	//font-family: "century gothic";
+	font-weight: bold;
 }
 
 /* Pages 4 & 5 Presentation */

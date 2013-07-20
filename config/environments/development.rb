@@ -37,4 +37,7 @@ Sat2B::Application.configure do
 
   #disable precompiled asset files for development mode (ie , no assets in public directory are served)
   config.serve_static_assets = false
+
+  #to be able to work in development environment after asset precompile
+  #config.assets.prefix = "/dev-assets"
 end
