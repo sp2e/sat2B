@@ -39,5 +39,5 @@ Sat2B::Application.configure do
   config.serve_static_assets = false
 
   #to be able to work in development environment after asset precompile
-  #config.assets.prefix = "/dev-assets"
+  config.assets.prefix = "/dev-assets"
 end

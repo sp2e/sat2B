@@ -66,6 +66,6 @@ module Sat2B
     config.assets.version = '1.0'
 
     #evidently needed for precompilation of assets, per rails guide on asset pipeline
-    #config.assets.initialize_on_precompile = false
+    config.assets.initialize_on_precompile = false
   end
 end
