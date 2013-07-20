@@ -1,3 +1,62 @@
 // Place all the styles related to the Catalog controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*
+h2, h3, h4, h5, h6 { 
+	color: #602a59; 
+	font-weight: normal;
+	margin-left: -0.5%;	
+}
+
+h2 { font-size: 28px; margin-bottom: 0px; }
+h3 { font-size: 20px; }
+h4 { 
+	font-size: 16px; 
+	margin-top: 8%;
+	margin-bottom: 0px; 
+	font-weight: bold;
+}
+*/
+$sat_orange :#F68747 ;
+$DarkGraySideBackground :#444444;
+
+body {
+	background-color: $DarkGraySideBackground ; /* $DarkGraySideBackground ;	*/
+}
+
+//satext orig was h2
+.sat_toc { 
+	color: $sat_orange; 
+	font-weight: normal;
+	//margin-left: -0.5%;	
+	font-size: 30px; 
+	margin-bottom: 20px;
+	font-family: "century gothic";
+	letter-spacing: 22px; 
+	text-align: center;
+}
+
+.coll_toc { 
+	color: $sat_orange; 
+	font-weight: normal;
+	font-size: 15px; 
+	margin-bottom: 45px;
+	font-family: antiqua; 
+	text-align: center;
+	letter-spacing: 8px; 
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+.toc_toc {
+	 font-family:arial;
+	 color: $DarkGraySideBackground ;
+	 text-align: center;
+	 padding-right: 5%;
+
+}
+
+
+
+
