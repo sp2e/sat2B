@@ -21,8 +21,27 @@ h4 {
 $sat_orange :#F68747 ;
 $DarkGraySideBackground :#444444;
 
+/*@media all and (max-height: 750px) and (max-width: 1000px){
+		body {
+		margin: 4% 7% 4% 7%;
+	}
+}
+*/
+
+@media all and (max-height: 750px){
+		body {
+		margin: 4% 7% 4% 7%;
+	}
+}
+
+@media screen and (min-height: 751px){
+	body {
+		margin: 7% 11% 0% 11%;
+	}
+}
+
+
 body {
-	margin: 4% 7% 4% 7%;
 	background-color: $DarkGraySideBackground ; /* $DarkGraySideBackground ;	*/
 }
 

@@ -15,19 +15,19 @@ $fb_cont : flipbook-container-1 ; /* flip book container */
 
 //sat2B original values:
 //@media ( max-width: 1050px){
-$fb_width : 410px; /* flip book width in pixels (without border) */
-$fb_height : 533px; /* flip book height in pixels (without border) */
+//$fb_width : 410px; /* flip book width in pixels (without border) */
+//$fb_height : 533px; /* flip book height in pixels (without border) */
 //}
 
 //$fb_width_big : 512px; /* flip book width in pixels (without border) */
 //$fb_height_big : 667px; /* flip book height in pixels (without border) */
 //@media (min-width: 1050px) and ( max-width: 1175px)
 //@media (min-width: 1051px){
-$fb_width_big : 660px; /* flip book width in pixels (without border) */
-$fb_height_big : 854px; /* flip book height in pixels (without border) */
+$fb_width: 660px; /* flip book width in pixels (without border) */
+$fb_height: 854px; /* flip book height in pixels (without border) */
 //$fb_width_big : 615px; /* flip book width in pixels (without border) */
 //$fb_height_big : 800px; /* flip book height in pixels (without border) */
-//}
+
 
 
 /* Book Position */
@@ -74,10 +74,10 @@ $sa_border_outline_color : #D6D6D6; /* show all pages panel outline color */
 /* End of Settings - DO NOT EDIT bellow this line! */
 
 
+//@media ( min-width: 1051px){
+//@media ( max-width: 1050px){
 
 //sat2B original values:
-
-//@media ( max-width: 1050px){
 /*}			
 		#flipbook-1 {
 			margin-top: $margin_top; 
@@ -106,18 +106,17 @@ $sa_border_outline_color : #D6D6D6; /* show all pages panel outline color */
 			
 		}
 
-
-
-@media ( min-width: 1051px){
 */	
+//the following worked:
+//@media screen and (min-device-width: 1px){
 		#flipbook-1 {
 			margin-top: $margin_top; 
 			margin-bottom: $margin_bottom; 
 			margin-left: $margin_left; 
 			margin-right: $margin_right; 
 			
-			width: (($fb_width_big * 2) + ($border_size * 2));  
-			height: (($fb_height_big) + ($border_size * 2));  
+			width: (($fb_width * 2) + ($border_size * 2));  
+			height: (($fb_height) + ($border_size * 2));  
 		}
 		
 		#flipbook-1 div.fb-page div.page-content {
@@ -126,8 +125,8 @@ $sa_border_outline_color : #D6D6D6; /* show all pages panel outline color */
 		}
 		
 		#flipbook-1 .turn-page {
-			width: ($fb_width_big + ($border_size)); 		
-			height: ($fb_height_big + ($border_size * 2));
+			width: ($fb_width + ($border_size)); 		
+			height: ($fb_height + ($border_size * 2));
 			//ORIG line is below 
 			background: $border_color;  
 			border-top-right-radius: $border_radius; 
