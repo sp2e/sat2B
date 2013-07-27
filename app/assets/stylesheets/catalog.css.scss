@@ -21,49 +21,49 @@ h4 {
 $sat_orange :#F68747 ;
 $DarkGraySideBackground :#444444;
 
+
+
 @media all and (max-height: 580px)  and (max-width:950px) {
-		body {
-		margin: 3% 14% 0% 14%;
+	body {
+		//margin: 3% 14% 0% 14%;
+		margin-top: 3%;
 	}
+
 }
 
 @media all and (max-height: 580px) and (min-width:951px) {
-		body {
+	body {
 		margin: 3% 16% 0% 16%;
 	}
 }
-@media screen and (min-height: 581px) and (max-height:680px) and (max-width:980px){
-		body {
-		margin: 4% 7.2% 0% 7.2%;
 
+@media screen and (min-height: 581px) and (max-height:680px) and (max-width:980px){
+	body {
+		margin: 4% 7.2% 0% 7.2%;
 	}
 }
 
 @media screen and (min-height: 581px) and (max-height:680px) and (min-width:980px) and  (max-width:1100px){
-		body {
+	body {
 		margin: 4% 13% 0% 13%;
-
 	}
 }
 
 @media screen and (max-height:680px) and (min-width:1101px) {
-		body {
+	body {
 		margin: 4% 20% 0% 20%;
-
 	}
 }
 
 @media all and (min-height:681px) and (max-width:1150px){
-		body {
+	body {
 		margin: 10% 12% 0% 12%;
-
 	}
 }
 
 @media all and (min-height:681px) and (min-width:1151px){
-		body {
+	body {
 		margin: 11.5% 19% 0% 19%;
-
 	}
 }
 /*
@@ -119,6 +119,8 @@ body {
 	 padding-right: 5%;
 
 }
+
+
 
 /*
 #outmost-box {

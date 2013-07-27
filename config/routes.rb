@@ -1,7 +1,13 @@
 Sat2B::Application.routes.draw do
-  get "catalog/home"
+
+  #get "catalog/home"
   root to: 'catalog#home'
   match 'home', to: 'catalog#home'
+  match 'mobile', to: 'catalog#mobile'
+  match 'm', to: 'catalog#mobile'
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
