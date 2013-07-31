@@ -67,5 +67,8 @@ module Sat2B
 
     #evidently needed for precompilation of assets, per rails guide on asset pipeline
     config.assets.initialize_on_precompile = false
+
+    #add path to mobile css file 
+    config.assets.paths << Rails.root.join("public", "stylesheets")
   end
 end
