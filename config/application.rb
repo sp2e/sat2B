@@ -69,6 +69,6 @@ module Sat2B
     config.assets.initialize_on_precompile = false
 
     #add path to mobile css file 
-    config.assets.paths << Rails.root.join("public", "stylesheets")
+    #config.assets.paths << Rails.root.join("public", "stylesheets")
   end
 end

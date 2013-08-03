@@ -12,6 +12,5 @@
  *= require flipbookcss/settings
  *= require flipbookcss/style
  *= require flipbookcss/page-styles
- *= require mobile
  *= require_tree .
  */

@@ -5,9 +5,12 @@ gem 'jquery-rails'
 gem 'rack-timeout'
 #gem 'closure-compiler'
 
-
 group :development, :test do
   gem 'sqlite3'
+end
+
+group :development do
+  gem 'thin'
 end
 
 #annotates models: do bundle install and then bundle exec annotate , to implement
