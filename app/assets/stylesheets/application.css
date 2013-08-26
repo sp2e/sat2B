@@ -9,6 +9,8 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require mobile
+ *= require catalog
  *= require flipbookcss/settings
  *= require flipbookcss/style
  *= require flipbookcss/page-styles
