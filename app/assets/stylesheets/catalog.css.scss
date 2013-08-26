@@ -120,8 +120,26 @@ body {
 
 }
 
+.link_css {
+   color:$sat_orange; 
+   font-size: 15px;	
+   display: block;
+   text-align:center;
+}
 
+ #link_css  {
+   color:$sat_orange; 
+   font-size: 15px;	
+   display: block;
+   text-align:center;
+}
 
+#link_float  {
+   color:$sat_orange; 
+   font-size: 15px;	
+   display: block;
+   #float: left;
+}
 /*
 #outmost-box {
     display: inline-block;

@@ -1,15 +1,10 @@
-<!--<div id="outmost-box">
-<div id="dummy"></div>
-<div id="dummy-sib">
 
-<div id="testid">Racer Cafe :)</div>
--->
-
+<%= link_to "Go to Mobile View", home_path(mobile: 1 ), id:'link_float' %>
 <div id="flipbook-container-1" class="flipbook-container">
 	<!-- Flip book -->
 	<div id="flipbook-1" class="flipbook">
 		<!-- Start Flip Book Pages -->
-		
+
 		<!-- Cover -->
 		<div class="fb-page">
 			<div class="page-content">
@@ -32,13 +27,12 @@
 						<ul class="toc enlarge" >
 							<!-- <li><a href="#3"></a><span class="number">03</span><span class="text" >Table of Contents</span></a></li> -->
 							<li><a href="#1"><span class="number">01</span><span class="text" >Front Cover</span></a></li>
-							<li><a href="#5"><span class="number">05</span><span class="text">Moscone Center, SF</span></a></li> 
-							<li><a href="#7"><span class="number">07</span><span class="text">Silk Velvet and Brocades</span></a></li>
-							<li><a href="#9"><span class="number">09</span><span class="text">Shantung Silk and Silk Velvet</span></a></li>
-							<li><a href="#11"><span class="number">11</span><span class="text">Twisted Silk Pillows</span></a></li>
-							<li><a href="#13"><span class="number">13</span><span class="text" >Classic Silk Pillows</span></a></li> 
-							<li><a href="#14"><span class="number">14</span><span class="text">Velvet Throws</span></a></li>														
-						</ul>
+							<li><a href="#5"><span class="number">05</span><span class="text">Exquisite Textiles</span></a></li> 
+							<li><a href="#7"><span class="number">07</span><span class="text">Brocades, Shantung Silk, and Silk Velvet</span></a></li>
+							<li><a href="#8"><span class="number">08</span><span class="text">Velvet Throws</span></a></li>
+							<li><a href="#9"><span class="number">09</span><span class="text" >Inspiration</span></a></li> 
+							<li><a href="#10"><span class="number">10</span><span class="text">Twisted Silk Pillows</span></a></li>	
+							<li><a href="#11"><span class="number">11</span><span class="text">Twisted Silk and Pure Velvet</span></a></li>	
 					</div>
 
 					<div style="padding-top:6%;" class="preview-content toc right">
@@ -47,14 +41,16 @@
 						<p class="coll_toc enlarge"><span style="visibility:hidden"></span>COLLECTION</p>
 						<h3 class="enlarge toc_toc" >Table of Contents</h3>		
 						</div> 
-						<ul class="toc enlarge" >
-							<li><a href="#15"><span class="number">15</span><span class="text">Inspiration</span></a></li>																
-							<li><a href="#16"><span class="number">16</span><span class="text">Pear Velvet and Silk</span></a></li>				
-							<li><a href="#17"><span class="number">17</span><span class="text">Chrysanthemum Brocades</span></a></li>		
-							<li><a href="#19"><span class="number">19</span><span class="text">Satsuma Linen</span></a></li>
-							<li><a href="#20"><span class="number">20</span><span class="text">Table Runners and Napkins</span></a></li>
-							<li><a href="#21"><span class="number">21</span><span class="text">Colors of Linen</span></a></li>
-							<li><a href="#22"><span class="number">22</span><span class="text">Back Cover</span></a></li>
+						<ul class="toc enlarge" >												
+							<li><a href="#12"><span class="number">12</span><span class="text">Classic Silk Shantung Pillows</span></a></li>				
+							<li><a href="#14"><span class="number">14</span><span class="text">Brocade and Velvet</span></a></li>	
+							<li><a href="#15"><span class="number">15</span><span class="text">Shantung and Velvets</span></a></li>	
+							<li><a href="#17"><span class="number">17</span><span class="text">Satsuma Linen</span></a></li>
+							<li><a href="#18"><span class="number">18</span><span class="text">Table Runners and Napkins</span></a></li>
+							<li><a href="#19"><span class="number">19</span><span class="text">Colors of Linen</span></a></li>
+							<li><a href="#20"><span class="number">20</span><span class="text">Back Cover</span></a></li>
+							<br></br>
+							<%= link_to "Go to Mobile View", home_path(mobile: 1), id: "link_css" %>
 						</ul>
 					</div>					
 					<%= image_tag "flipbookimg/pages/preview/blank-pg.jpg",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
@@ -75,7 +71,7 @@
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/02_booth_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/booth.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
@@ -85,7 +81,7 @@
 		<div class="fb-page">
 			<div class="page-content">	
 				<div class="container">	
-				<%= image_tag "flipbookimg/pages/preview/blank-pg.jpg",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+				<%= image_tag "flipbookimg/pages/preview/first_rel_d/05_beauty_words_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
             </div>
         </div>
@@ -93,26 +89,7 @@
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/04_brocade_coll_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
-				</div>
-			</div>				 
-		</div>	
-
-		
-		<!-- Pages 8 and 9 -->
-		<div class="fb-page">
-			<div class="page-content">	
-				<div class="container">	
-				<!-- left page content -->
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/05_beauty_words_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
-				</div>
-            </div>
-        </div>
-		<div class="fb-page">         
-            <div class="page-content">
-            	<div class="container">
-				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/06_brocades_silk_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/06_brocades_silk_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
@@ -122,7 +99,7 @@
 			<div class="page-content">	
 				<div class="container">	
 				<!-- left page content -->
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/07_twisted_silks_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/07_velvet_throws_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
             </div>
         </div>
@@ -130,7 +107,7 @@
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/08_twisted_avail_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/08_inspiration_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
@@ -140,7 +117,7 @@
 			<div class="page-content">	
 				<div class="container">	
 				<!-- left page content -->
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/09_classic_pills_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/09_twisted_pills_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
             </div>
         </div>
@@ -148,18 +125,17 @@
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/10_classic_pics_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/10_twisted_silks_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
-
-
+			
 		<!-- Pages 14 and 15-->
 		<div class="fb-page">
 			<div class="page-content">	
 				<div class="container">	
 				<!-- left page content -->
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/11_velvet_throws_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/11_classic_pills_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
             </div>
         </div>
@@ -167,22 +143,17 @@
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/12_inspiration_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/12_classic_pics_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
-		
 
-
-		<!-- Pages 16 and 17-->
-
-		
-		<!-- Pages 16 and 17-->
+			<!-- Pages 16 and 17-->
 		<div class="fb-page">         
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/13_pear_velvet_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/13_brocade_velvet_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
@@ -190,7 +161,7 @@
 			<div class="page-content">	
 				<div class="container">	
 				<!-- left page content -->
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/14_chrys_brocades_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/14_shantung_velvet_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
             </div>
         </div>
@@ -208,7 +179,7 @@
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/15_pure_linen_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/15_pure_linen_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
@@ -218,7 +189,7 @@
 			<div class="page-content">	
 				<div class="container">	
 				<!-- left page content -->
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/16_runners_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/16_runners_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
             </div>
         </div>
@@ -226,7 +197,7 @@
             <div class="page-content">
             	<div class="container">
 				<!-- right page content -->    
-						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/17_colors_linen_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+						 <%= image_tag "flipbookimg/pages/preview/first_rel_d/17_colors_linen_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>				 
 		</div>	
@@ -236,7 +207,7 @@
 		<div class="fb-page">
 			<div class="page-content">
 				<div class="container">
-					<%= image_tag "flipbookimg/pages/preview/first_rel_d/back_cover_d.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
+					<%= image_tag "flipbookimg/pages/preview/first_rel_d/back_cover_e.PNG",class: "bg-img",  :alt => "Path to Picture not found !!!!!!!!!" %>
 				</div>
 			</div>
 		</div>

@@ -5,6 +5,8 @@ class CatalogController < ApplicationController
 
   	if session[:mobile_param]
   		  	request.format = :mobile
+    else
+      
   	end
 
     render layout:  '/layouts/application.html'
@@ -21,8 +23,8 @@ class CatalogController < ApplicationController
 
   def mobile
 
-  	request.format = :mobile #maybe not needed.
-  	session[:mobile_param] = "1"
+  	#request.format = :mobile #maybe not needed.
+  	#session[:mobile_param] = "1"
     #redirect_to '/home' 
     render template: 'catalog/home', formats: [:mobile] , layout: '/layouts/application.html'
   end #mobile

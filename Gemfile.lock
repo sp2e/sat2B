@@ -57,6 +57,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.7)
+    newrelic_rpm (3.6.6.147)
     pg (0.16.0-x86-mingw32)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -121,7 +122,8 @@ PLATFORMS
 DEPENDENCIES
   annotate
   coffee-rails (~> 3.2.1)
-  jquery-rails
+  jquery-rails (= 3.0.4)
+  newrelic_rpm
   pg
   rack-timeout
   rails (= 3.2.13)

@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'jquery-rails'
+gem 'jquery-rails', '3.0.4'
 gem 'rack-timeout'
+gem 'newrelic_rpm'  #for monitoring on heroku 
+
 #gem 'closure-compiler'
 
 group :development, :test do
@@ -33,6 +35,8 @@ end
 group :production do
   gem 'pg'
   gem 'unicorn'
+  #gem 'heroku-deflater' #for real time compression on heroku cedar stack
+  #incorporate next time around by itself
 end
 
 # To use ActiveModel has_secure_password
